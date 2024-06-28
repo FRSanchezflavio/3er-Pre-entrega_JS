@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.encabezado {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  height: 9vh;
+}
+
+hr {
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  border: none;
+}
+
+.container {
+  display: flex;
+  margin-top: 200px;
+  align-items: center;
+  height: 15vh;
+  flex-direction: column;
+  border: 4px solid #333;
+  border-radius: 10px;
+}
